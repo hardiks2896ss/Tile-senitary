@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"Project rule: before doing anything else, use the prompt-builder skill to rewrite this message into a structured prompt, show it under 'Rewritten prompt', then carry it out. Apply zeel-design, frontend-ui and react-next as the rewritten prompt lists.\""
+          }
+        ]
+      }
+    ]
+  }
+}
