@@ -1,7 +1,9 @@
 # Zeel Tiles & Sanitary — Website
 
 Showcase site for a one-stop tiles, sanitaryware and building-materials showroom.
-Design brief: see [`PROMPT.md`](./PROMPT.md).
+Design brief: see [`PROMPT.md`](./PROMPT.md). **New computer? Start with [`SETUP.md`](./SETUP.md).**
+
+Repo: https://github.com/hardiks2896ss/Tile-senitary
 
 **Stack:** Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · Framer Motion · Lenis smooth scroll.
 

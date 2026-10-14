@@ -4,6 +4,18 @@ Marketing site for **Zeel Tiles & Sanitary**, a one-stop showroom for tiles, san
 fittings and building materials. The full design brief is in [`PROMPT.md`](./PROMPT.md); read it
 before any design work.
 
+- Repo: https://github.com/hardiks2896ss/Tile-senitary (`git clone https://github.com/hardiks2896ss/Tile-senitary.git`)
+- First-time setup on a new computer (VS Code + Claude Code): [`SETUP.md`](./SETUP.md)
+
+## Skills — always
+1. **`prompt-builder` runs first on every user message.** Rewrite the message into the structured
+   prompt, show it under "Rewritten prompt", then do the work. A `UserPromptSubmit` hook in
+   `.claude/settings.json` reminds you each turn.
+2. Then apply what the rewritten prompt lists:
+   - `zeel-design`: brand look, motion, tiles, screenshot QA loop
+   - `frontend-ui`: layout, responsiveness, accessibility, copy
+   - `react-next`: React / Next.js / Framer Motion / Lenis / Tailwind code rules
+
 ## Stack
 - Next.js 15 (App Router) + TypeScript, React 19
 - Tailwind CSS v4 (tokens live in `app/globals.css` under `@theme`)
