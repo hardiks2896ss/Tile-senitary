@@ -39,10 +39,7 @@ export default function Contact() {
 
         <form
           className="rounded-2xl bg-stone p-6 md:p-10"
-          onSubmit={(e) => {
-            e.preventDefault();
-            window.open(waLink(message), "_blank", "noopener");
-          }}
+          onSubmit={(e) => e.preventDefault()}
         >
           <fieldset>
             <legend className="label mb-4 text-muted">I am a</legend>
@@ -87,9 +84,9 @@ export default function Contact() {
           <div className="mt-10 flex flex-wrap items-center justify-between gap-4">
             <p className="max-w-xs text-xs text-muted">Opens WhatsApp with your enquiry pre-filled. We reply within business hours.</p>
             <Magnetic>
-              <button type="submit" className="rounded-full bg-ink px-8 py-4 text-sm font-semibold text-ivory transition-colors hover:bg-bronze">
+              <a href={waLink(message)} target="_blank" rel="noreferrer" className="inline-block rounded-full bg-ink px-8 py-4 text-sm font-semibold text-ivory transition-colors hover:bg-bronze">
                 Send on WhatsApp →
-              </button>
+              </a>
             </Magnetic>
           </div>
         </form>
