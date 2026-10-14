@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
-    "preview:build": "node preview/build.mjs"
+    "preview:build": "node preview/build.mjs",
+    "shots": "node scripts/screenshot.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.43.0",
@@ -23,6 +24,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "esbuild": "^0.25.12",
+    "playwright": "^1.64.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3"
   }
